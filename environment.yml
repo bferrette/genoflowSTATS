@@ -1,0 +1,21 @@
+name: GENOFLOWSTATSenv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.14
+  - pip
+  - setuptools>=77
+  - wheel
+  - numpy
+  - scipy
+  - pysam
+  - polars
+  - pyarrow
+  - statsmodels
+  - scikit-learn
+  - matplotlib
+  - rich
+  - psutil
+  - jinja2
+  - pydantic

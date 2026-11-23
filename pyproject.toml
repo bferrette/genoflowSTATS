@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genoflowSTATS"
+version = "0.2.0"
+description = "High-performance genome assembly statistics and quality-control metrics for genoflow"
+readme = "README.md"
+requires-python = ">=3.14"
+license = "GPL-3.0-only"
+authors = [{name = "genoflowSTATS contributors"}]
+dependencies = [
+  "numpy",
+  "scipy",
+  "pysam",
+  "polars",
+  "pyarrow",
+  "statsmodels",
+  "scikit-learn",
+  "matplotlib",
+  "rich",
+  "psutil",
+  "jinja2",
+  "pydantic"
+]
+
+[project.urls]
+Repository = "https://github.com/bferrette/genoflowSTATS"
+
+[project.scripts]
+genoflowSTATS = "genoflowstats.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
