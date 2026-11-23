@@ -151,7 +151,7 @@ python -m unittest discover -s tests -v
 
 If you use genoflowSTATS v0.2.0, cite:
 
-bferrette. (2026). *bferrette/genoflowSTATS: genoflowSTATS v0.2.0* (Version v0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24483249
+Ferrette, B. L. S. (2026). *bferrette/genoflowSTATS: genoflowSTATS v0.2.0* (Version v0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24483249
 
 Cite [genoflowHiFi](https://github.com/bferrette/genoflowHiFi) separately when using its workflow.
 
