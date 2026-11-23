@@ -7,6 +7,8 @@
 
 Part of the [genoflowVerse](https://github.com/bferrette) ecosystem · Python ≥ 3.14 · Version 0.2.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24483249.svg)](https://doi.org/10.5281/zenodo.24483249)
+
 </div>
 
 ---
@@ -147,7 +149,11 @@ python -m unittest discover -s tests -v
 
 ## Citation
 
-If you use genoflowSTATS, identify the software version and retain the project source used for the analysis. Cite [genoflowHiFi](https://github.com/bferrette/genoflowHiFi) separately when using its workflow. No genoflowSTATS release DOI is supplied in this distribution.
+If you use genoflowSTATS v0.2.0, cite:
+
+bferrette. (2026). *bferrette/genoflowSTATS: genoflowSTATS v0.2.0* (Version v0.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24483249
+
+Cite [genoflowHiFi](https://github.com/bferrette/genoflowHiFi) separately when using its workflow.
 
 ## License
 
